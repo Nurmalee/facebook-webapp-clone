@@ -1,6 +1,7 @@
 import './App.css';
 import TopNav from './Components/TopNav';
 import LeftNav from './Components/LeftNav';
+import TimeLine from './Components/TimeLine';
 
 
 
@@ -10,6 +11,7 @@ function App() {
      <TopNav />
       <div className="app__body">
         <LeftNav />
+        <TimeLine />
       </div>
     </div>
   );

@@ -10,21 +10,15 @@ const LeftNav = () => {
                leftNavArr.map((navItem, i) => {
                    const {title, icon} = navItem
                    return (
-                       <LeftNavItem key={i} title={title} icon={icon} />
+                        <div className='leftNav__item' key={i} >
+                            {icon}
+                            <p>{title}</p>
+                        </div>
                    )
                })
             }
         
         </section>
-    )
-}
-
-export const LeftNavItem = ({title, icon}) => {
-    return (
-        <div className='leftNav__item'>
-            {icon}
-            <p>{title}</p>
-        </div>
     )
 }
 

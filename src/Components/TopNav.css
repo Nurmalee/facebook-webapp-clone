@@ -11,6 +11,7 @@
     justify-content: space-between;
     padding: 0 15px;
     box-shadow: 0 0 2px grey;
+    height: 55px;
 }
 
 .topNav__left {
@@ -20,9 +21,15 @@
     align-items: center;
 }
 
-.topNav__left > img {
-    height: 60px;
+.topNav .facebook {
+    height: 45px;
+    width: 45px;
+    color: rgb(28, 135, 216);
 }
+
+/* .topNav__left > img {
+    height: 60px;
+} */
 
 .topNav__search {
     display: flex;
@@ -30,12 +37,11 @@
     /* border: 1px solid; */
     flex: 1;
     padding: 0 10px;
-    height: 43px;
-    /* width: 300px; */
+    height: 40px;
     margin-left: 10px;
     border-radius: 50px;
     color: grey;
-    background-color: rgb(230, 232, 234);
+    background-color: rgb(237, 238, 239);
 }
 
 .topNav__search > input {
@@ -80,9 +86,8 @@
     height: 3px;
 }
 
-.topNav__center > li:hover::after {
-    /* background-color: rgba(27, 27, 92, 0.776); */
-    background-color: grey;
+.topNav__center li:first-child::after {
+    background-color: rgb(28, 135, 216);
 }
 
 .topNav__center .topNav__icon {
@@ -91,9 +96,9 @@
     width: 27px;
 }
 
-/* .topNav__center .topNav__icon:nth-of-type(1) {
-    color: rgba(27, 27, 92, 0.776);
-} */
+.topNav__center li:first-child .topNav__icon {
+    color: rgb(28, 135, 216);
+}
 
 
 .topNav__right > li {
@@ -128,6 +133,6 @@
 }
 
 .avatar-container .avatar {
-    height: 28px;
-    width: 28px;
+    height: 33px;
+    width: 33px;
 }

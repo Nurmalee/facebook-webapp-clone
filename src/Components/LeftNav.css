@@ -1,7 +1,9 @@
 .leftNav {
     flex: 0.22;
+    /* position: absolute; */
     margin-top: 60px;
-    /* padding: 20px; */
+    padding: 15px 0;
+    padding-left: 10px;
     /* border: 1px solid; */
     display: flex;
     flex-direction: column;
@@ -14,33 +16,49 @@
     display: flex;
     align-items: center;
     text-transform: capitalize;
-    padding: 7px 2px;
-    margin: 5px 0;
+    padding: 10px 0;
+    padding-left: 10px;
+    /* margin: 5px 0; */
     cursor: pointer;
+    border-radius: 8px;
+}
+
+.leftNav__item:hover {
+    background-color: rgb(224, 227, 230);;
 }
 
 .leftNav__item > p {
     flex: 1;
     flex-wrap: wrap;
+    overflow-wrap: break-word;
     padding-left: 10px;
-    font-weight: 600;
-    font-size: 14px;
-    color: #444;
-} 
+    font-weight: 700;
+    font-size: 15px;
+    color: #333;
+}
+
+.leftNav__icon.avatar {
+    height: 28px;
+    width: 28px;
+}
 
 .leftNav__icon {
     height: 25px;
     width: 25px;
-    color: rgb(21, 21, 87)
+    color: rgb(16, 115, 191);
 }
 
 /* scrollbar */
 .leftNav::-webkit-scrollbar {
-    width: 5px;
+    width: 8px;
 }
 
 .leftNav:hover::-webkit-scrollbar-track {
-    background: #ddd;
+    background: transparent;
+}
+
+.leftNav::-webkit-scrollbar-track:hover {
+    background: rgb(221, 222, 222);
 }
   
 .leftNav::-webkit-scrollbar-thumb {
@@ -49,5 +67,5 @@
 }
   
 .leftNav:hover::-webkit-scrollbar-thumb {
-    background: #555;
+    background: rgb(183, 183, 183);
 }

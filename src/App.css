@@ -1,10 +1,9 @@
 .app {
-    background-color: rgb(230, 232, 234);
-    border: 1px solid;
+    background-color: rgb(237, 238, 239);
     min-height: 100vh;
 }
 
 .app__body {
-    padding: 20px;
+    /* padding: 20px; */
     display: flex;
 }
