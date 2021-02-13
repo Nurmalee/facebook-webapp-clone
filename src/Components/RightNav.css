@@ -1,0 +1,6 @@
+.rightNav {
+    flex: 0.25;
+    border: 1px solid;
+    margin-top: 60px;
+    padding: 15px 0;
+}
