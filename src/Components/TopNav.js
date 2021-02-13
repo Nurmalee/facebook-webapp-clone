@@ -8,6 +8,7 @@ import { TiArrowSortedDown } from 'react-icons/ti';
 import { HiOutlineUserGroup } from 'react-icons/hi';
 import { CgGames } from 'react-icons/cg';
 import facebook_logo from '.././Images_templates/facebook_logo.png';
+import Avatar from '@material-ui/core/Avatar';
 
 
 const TopNav = () => {
@@ -36,6 +37,10 @@ const TopNav = () => {
                 {navIconTemp(CgGames)}
             </ul>
             <ul className="topNav__right">
+                <div className="avatar-container">
+                    <Avatar src='https://scontent.flos2-2.fna.fbcdn.net/v/t1.0-9/17883993_1669103613106474_5182970347475567830_n.jpg?_nc_cat=106&ccb=3&_nc_sid=09cbfe&_nc_eui2=AeHgaNLcQa41UI8FWkmrpHls8u1gmV9ka4Dy7WCZX2RrgINa1meDFC3jMrBEQ6MvnEKKjGZXIrlRp3BlYvao3q-V&_nc_ohc=OXvCFWDJMiEAX-aS8Hc&_nc_ht=scontent.flos2-2.fna&oh=12d08044c1006f1c966ba5c84ef82eda&oe=604CE634' className='avatar' />
+                    <h4>Nurudeen</h4>
+                </div>
                 {navIconTemp(AiOutlinePlus)}
                 {navIconTemp(FaFacebookMessenger)}
                 {navIconTemp(FaBell)}

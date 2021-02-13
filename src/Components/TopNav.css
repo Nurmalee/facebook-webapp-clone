@@ -4,7 +4,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 0 15px;
-    box-shadow: 0 0 2px black;
+    box-shadow: 0 0 2px grey;
     width: 100%;
 }
 
@@ -26,6 +26,7 @@
     flex: 1;
     padding: 0 10px;
     height: 43px;
+    /* width: 300px; */
     margin-left: 10px;
     border-radius: 50px;
     color: grey;
@@ -107,4 +108,21 @@
     height: 17px;
     width: 17px;
     color: black;
+}
+
+.avatar-container {
+    display: flex;
+    align-items: center;
+    margin: 0 15px
+}
+
+.avatar-container h4 {
+    color: grey;
+    margin-left: 5px;
+    font-weight: 500;
+}
+
+.avatar-container .avatar {
+    height: 28px;
+    width: 28px;
 }
