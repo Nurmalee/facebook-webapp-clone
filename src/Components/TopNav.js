@@ -45,7 +45,6 @@ const TopNav = () => {
                 {navIconTemp(FaFacebookMessenger)}
                 {navIconTemp(FaBell)}
                 {navIconTemp(TiArrowSortedDown)}
-                {/* {navLeftIconsTemp(SiNintendogamecube)} */}
             </ul>
         </nav>
     )

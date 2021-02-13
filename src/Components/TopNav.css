@@ -1,11 +1,15 @@
 .topNav {
+    position: fixed;
+    left: 0;
+    right: 0;
+    width: 100%;
+    /* overflow-x: scroll; */
     background-color: white;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 0 15px;
     box-shadow: 0 0 2px grey;
-    width: 100%;
 }
 
 .topNav__left {
