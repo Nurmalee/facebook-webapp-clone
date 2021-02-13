@@ -1,4 +1,5 @@
 import React from 'react'
+import './LeftNav.css'
 import { leftNavArr } from '.././Data/data'
 
 const LeftNav = () => {
@@ -20,8 +21,8 @@ const LeftNav = () => {
 
 export const LeftNavItem = ({title, icon}) => {
     return (
-        <div>
-            {/* {icon && <Icon />} */}
+        <div className='leftNav__item'>
+            {icon}
             <p>{title}</p>
         </div>
     )
