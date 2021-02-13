@@ -123,16 +123,24 @@
 .avatar-container {
     display: flex;
     align-items: center;
-    margin: 0 15px
+    margin: 0 15px;
+    padding: 0 3px;
+    padding-right: 10px;
+    cursor: pointer;
+    border-radius: 20px;
 }
 
 .avatar-container h4 {
-    color: grey;
+    color: #444;
     margin-left: 5px;
     font-weight: 500;
 }
 
 .avatar-container .avatar {
-    height: 33px;
-    width: 33px;
+    height: 28px;
+    width: 28px;
+}
+
+.avatar-container:hover {
+    background-color: rgb(230, 232, 234);
 }
