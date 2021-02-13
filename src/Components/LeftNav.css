@@ -1,5 +1,5 @@
 .leftNav {
-    flex: 0.25;
+    flex: 0.22;
     margin-top: 60px;
     /* padding: 20px; */
     /* border: 1px solid; */
@@ -32,4 +32,22 @@
     height: 25px;
     width: 25px;
     color: rgb(21, 21, 87)
+}
+
+/* scrollbar */
+.leftNav::-webkit-scrollbar {
+    width: 5px;
+}
+
+.leftNav:hover::-webkit-scrollbar-track {
+    background: #ddd;
+}
+  
+.leftNav::-webkit-scrollbar-thumb {
+    /* background: #555; */
+    border-radius: 30px;
+}
+  
+.leftNav:hover::-webkit-scrollbar-thumb {
+    background: #555;
 }
