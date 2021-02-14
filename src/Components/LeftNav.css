@@ -7,6 +7,8 @@
     flex-direction: column;
     height: 100vh;
     overflow-y: scroll;
+    position: sticky;
+    top: 65px;
 }
 
 .leftNav__item {

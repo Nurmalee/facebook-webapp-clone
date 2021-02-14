@@ -12,7 +12,6 @@ const TimeLine = () => {
             <TimeLinePost />
             <TimeLinePost />
             <TimeLinePost />
-            <TimeLinePost />
         </section>
     )
 }

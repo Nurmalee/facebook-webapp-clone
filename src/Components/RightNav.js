@@ -3,7 +3,7 @@ import './RightNav.css';
 import Avatar from '@material-ui/core/Avatar';
 // import { rightNavArr } from ".././Data/data";
 
-const randomUsersUrl = 'https://randomuser.me/api/?results=33'
+const randomUsersUrl = 'https://randomuser.me/api/?results=20'
 
 const RightNav = () => {
     const [contacts, setContacts] = useState([])

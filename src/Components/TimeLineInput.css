@@ -35,7 +35,7 @@
     padding: 10px 20px;
     font-size: 15px;
     color: #444;
-    background-color: rgb(237, 238, 239);
+    background-color: #f1f2f5;
 }
 
 .input__input input:first-of-type {
@@ -44,7 +44,7 @@
 }
 
 .input__input input:last-of-type {
-    background-color: rgb(237, 238, 239);
+    background-color: #f1f2f5;
     width: 30%;
     margin-left: 10px;
     border-radius: 0;
@@ -72,7 +72,7 @@
 }
 
 .input__extra__item:hover {
-    background-color: rgb(230, 232, 234);;
+    background-color: #f1f2f5;
 }
 
 .input__extra__icon {
