@@ -19,32 +19,14 @@ const TimeLine = () => {
         )
     }
 
-    // const timeLineStoryTemp = (img1, img2, name) => {
-    //     return (
-    //         <div className='timeLine__story'>
-    //             <img src={img1} alt={name} />
-    //             <Avatar src={img2} className='timeLine__story__avatar' />
-    //             <p>{name}</p>
-    //         </div>
-           
-    //     )
-
-    // }
-
     return (
         <section className='timeLine'>
             <div className='timeLine__stories'>
-                {/* {timeLineStoryTemp(me, me, 'Nurudeen Lawal')}
-                {timeLineStoryTemp(me, me, 'Nurudeen Lawal')}
-                {timeLineStoryTemp(me, me, 'Nurudeen Lawal')}
-                {timeLineStoryTemp(me, me, 'Nurudeen Lawal')}
-                {timeLineStoryTemp(me, me, 'Nurudeen Lawal')} */}
-
                 {
                     storiesArr.map((story, i) => {
                         const {name, img1, img2} = story
                         return (
-                            <div className='timeLine__story'>
+                            <div className='timeLine__story' key={i} >
                                 <img src={img1} alt={name} />
                                 <Avatar src={img2} className='timeLine__story__avatar' />
                                 <p>{name}</p>
@@ -73,3 +55,23 @@ const TimeLine = () => {
 }
 
 export default TimeLine
+
+
+  // const timeLineStoryTemp = (img1, img2, name) => {
+    //     return (
+    //         <div className='timeLine__story'>
+    //             <img src={img1} alt={name} />
+    //             <Avatar src={img2} className='timeLine__story__avatar' />
+    //             <p>{name}</p>
+    //         </div>
+           
+    //     )
+
+    // }
+
+  {/* {timeLineStoryTemp(me, me, 'Nurudeen Lawal')}
+                {timeLineStoryTemp(me, me, 'Nurudeen Lawal')}
+                {timeLineStoryTemp(me, me, 'Nurudeen Lawal')}
+                {timeLineStoryTemp(me, me, 'Nurudeen Lawal')}
+                {timeLineStoryTemp(me, me, 'Nurudeen Lawal')} 
+    */}

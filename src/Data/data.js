@@ -3,7 +3,14 @@ import { AiFillHome, AiOutlineShop } from 'react-icons/ai';
 import { BsCollectionPlay } from 'react-icons/bs';
 import { HiOutlineUserGroup } from 'react-icons/hi';
 import { CgGames } from 'react-icons/cg';
+import { TiWeatherDownpour } from 'react-icons/ti';
+import { FaFacebookMessenger } from 'react-icons/fa';
+import { RiMessage2Fill } from 'react-icons/ri';
 import { SiNintendogamecube } from 'react-icons/si';
+import { FcCalendar } from 'react-icons/fc';
+import { GrSave } from 'react-icons/gr';
+import { GiThreeFriends, GiBackwardTime, GiMicrophone } from 'react-icons/gi';
+
 
 import Avatar from '@material-ui/core/Avatar';
 
@@ -43,7 +50,7 @@ export const leftNavArr = [
     },
     {
         title: 'friends',
-        icon: <AiOutlineShop className='leftNav__icon' />
+        icon: <GiThreeFriends className='leftNav__icon' />
     },
     {
         title: 'groups',
@@ -51,27 +58,27 @@ export const leftNavArr = [
     },
     {
         title: 'marketplace',
-        icon: <BsCollectionPlay className='leftNav__icon' />
+        icon: <AiOutlineShop className='leftNav__icon' />
     },
     {
         title: 'watch',
-        icon: <SiNintendogamecube className='leftNav__icon' />
+        icon: <BsCollectionPlay className='leftNav__icon' />
     },
     {
         title: 'events',
-        icon: <BsCollectionPlay className='leftNav__icon' />
+        icon: <FcCalendar className='leftNav__icon' />
     },
     {
         title: 'memories',
-        icon: <SiNintendogamecube className='leftNav__icon' />
+        icon: <GiBackwardTime className='leftNav__icon' />
     },
     {
         title: 'saved',
-        icon: <BsCollectionPlay className='leftNav__icon' />
+        icon: <GrSave className='leftNav__icon' />
     },
     {
         title: 'ad center',
-        icon: <SiNintendogamecube className='leftNav__icon' />
+        icon: <GiMicrophone className='leftNav__icon' />
     },
     {
         title: 'ads manager',
@@ -93,66 +100,66 @@ export const leftNavArr = [
         title: 'facebook pay',
         icon: <BsCollectionPlay className='leftNav__icon' />
     },
-    // {
-    //     title: 'favourite',
-    //     icon: <SiNintendogamecube className='leftNav__icon' />
-    // },
-    // {
-    //     title: 'friend lists',
-    //     icon: <BsCollectionPlay className='leftNav__icon' />
-    // },
-    // {
-    //     title: 'fundraisers',
-    //     icon: <SiNintendogamecube className='leftNav__icon' />
-    // },
-    // {
-    //     title: 'games',
-    //     icon: <BsCollectionPlay className='leftNav__icon' />
-    // },
-    // {
-    //     title: 'gaming video',
-    //     icon: <SiNintendogamecube className='leftNav__icon' />
-    // },
-    // {
-    //     title: 'jobs',
-    //     icon: <BsCollectionPlay className='leftNav__icon' />
-    // },
-    // {
-    //     title: 'live videos',
-    //     icon: <SiNintendogamecube className='leftNav__icon' />
-    // },
-    // {
-    //     title: 'messenger',
-    //     icon: <BsCollectionPlay className='leftNav__icon' />
-    // },
-    // {
-    //     title: 'messenger kids',
-    //     icon: <SiNintendogamecube className='leftNav__icon' />
-    // },
-    // {
-    //     title: 'most recent',
-    //     icon: <BsCollectionPlay className='leftNav__icon' />
-    // },
-    // {
-    //     title: 'offers',
-    //     icon: <SiNintendogamecube className='leftNav__icon' />
-    // },
-    // {
-    //     title: 'pages',
-    //     icon: <BsCollectionPlay className='leftNav__icon' />
-    // },
-    // {
-    //     title: 'recent ad activity',
-    //     icon: <SiNintendogamecube className='leftNav__icon' />
-    // },
-    // {
-    //     title: 'tournament',
-    //     icon: <BsCollectionPlay className='leftNav__icon' />
-    // },
-    // {
-    //     title: 'weather',
-    //     icon: <SiNintendogamecube className='leftNav__icon' />
-    // }
+    {
+        title: 'favourite',
+        icon: <SiNintendogamecube className='leftNav__icon' />
+    },
+    {
+        title: 'friend lists',
+        icon: <BsCollectionPlay className='leftNav__icon' />
+    },
+    {
+        title: 'fundraisers',
+        icon: <SiNintendogamecube className='leftNav__icon' />
+    },
+    {
+        title: 'games',
+        icon: <CgGames className='leftNav__icon' />
+    },
+    {
+        title: 'gaming video',
+        icon: <SiNintendogamecube className='leftNav__icon' />
+    },
+    {
+        title: 'jobs',
+        icon: <BsCollectionPlay className='leftNav__icon' />
+    },
+    {
+        title: 'live videos',
+        icon: <SiNintendogamecube className='leftNav__icon' />
+    },
+    {
+        title: 'messenger',
+        icon: <FaFacebookMessenger className='leftNav__icon' />
+    },
+    {
+        title: 'messenger kids',
+        icon: <RiMessage2Fill className='leftNav__icon' />
+    },
+    {
+        title: 'most recent',
+        icon: <BsCollectionPlay className='leftNav__icon' />
+    },
+    {
+        title: 'offers',
+        icon: <SiNintendogamecube className='leftNav__icon' />
+    },
+    {
+        title: 'pages',
+        icon: <BsCollectionPlay className='leftNav__icon' />
+    },
+    {
+        title: 'recent ad activity',
+        icon: <SiNintendogamecube className='leftNav__icon' />
+    },
+    {
+        title: 'tournament',
+        icon: <SiNintendogamecube className='leftNav__icon' />
+    },
+    {
+        title: 'weather',
+        icon: <TiWeatherDownpour className='leftNav__icon' />
+    }
 ]
 
 export const storiesArr = [
@@ -183,69 +190,69 @@ export const storiesArr = [
     },
 ]
 
-export const rightNavArr = [
-    {
-        title: "nurudeen nurmanteezy'tobiloba lawal",
-        icon: <Avatar src='https://avatars.githubusercontent.com/u/70635657?s=460&u=eea4bb2b6dff02e5993458cecc93018eca3bd17d&v=4' className='leftNav__icon avatar' />
-    },
-    {
-        title: "nurudeen nurmanteezy'tobiloba lawal",
-        icon: <Avatar src='https://avatars.githubusercontent.com/u/70635657?s=460&u=eea4bb2b6dff02e5993458cecc93018eca3bd17d&v=4' className='leftNav__icon avatar' />
-    },
-    {
-        title: "nurudeen nurmanteezy'tobiloba lawal",
-        icon: <Avatar src='https://avatars.githubusercontent.com/u/70635657?s=460&u=eea4bb2b6dff02e5993458cecc93018eca3bd17d&v=4' className='leftNav__icon avatar' />
-    },
-    {
-        title: "nurudeen nurmanteezy'tobiloba lawal",
-        icon: <Avatar src='https://avatars.githubusercontent.com/u/70635657?s=460&u=eea4bb2b6dff02e5993458cecc93018eca3bd17d&v=4' className='leftNav__icon avatar' />
-    },
-    {
-        title: "nurudeen nurmanteezy'tobiloba lawal",
-        icon: <Avatar src='https://avatars.githubusercontent.com/u/70635657?s=460&u=eea4bb2b6dff02e5993458cecc93018eca3bd17d&v=4' className='leftNav__icon avatar' />
-    },
-    {
-        title: "nurudeen nurmanteezy'tobiloba lawal",
-        icon: <Avatar src='https://avatars.githubusercontent.com/u/70635657?s=460&u=eea4bb2b6dff02e5993458cecc93018eca3bd17d&v=4' className='leftNav__icon avatar' />
-    },
-    {
-        title: "nurudeen nurmanteezy'tobiloba lawal",
-        icon: <Avatar src='https://avatars.githubusercontent.com/u/70635657?s=460&u=eea4bb2b6dff02e5993458cecc93018eca3bd17d&v=4' className='leftNav__icon avatar' />
-    },
-    {
-        title: "nurudeen nurmanteezy'tobiloba lawal",
-        icon: <Avatar src='https://avatars.githubusercontent.com/u/70635657?s=460&u=eea4bb2b6dff02e5993458cecc93018eca3bd17d&v=4' className='leftNav__icon avatar' />
-    },
-    {
-        title: "nurudeen nurmanteezy'tobiloba lawal",
-        icon: <Avatar src='https://avatars.githubusercontent.com/u/70635657?s=460&u=eea4bb2b6dff02e5993458cecc93018eca3bd17d&v=4' className='leftNav__icon avatar' />
-    },
-    {
-        title: "nurudeen nurmanteezy'tobiloba lawal",
-        icon: <Avatar src='https://avatars.githubusercontent.com/u/70635657?s=460&u=eea4bb2b6dff02e5993458cecc93018eca3bd17d&v=4' className='leftNav__icon avatar' />
-    },
-    {
-        title: "nurudeen nurmanteezy'tobiloba lawal",
-        icon: <Avatar src='https://avatars.githubusercontent.com/u/70635657?s=460&u=eea4bb2b6dff02e5993458cecc93018eca3bd17d&v=4' className='leftNav__icon avatar' />
-    },
-    {
-        title: "nurudeen nurmanteezy'tobiloba lawal",
-        icon: <Avatar src='https://avatars.githubusercontent.com/u/70635657?s=460&u=eea4bb2b6dff02e5993458cecc93018eca3bd17d&v=4' className='leftNav__icon avatar' />
-    },
-    {
-        title: "nurudeen nurmanteezy'tobiloba lawal",
-        icon: <Avatar src='https://avatars.githubusercontent.com/u/70635657?s=460&u=eea4bb2b6dff02e5993458cecc93018eca3bd17d&v=4' className='leftNav__icon avatar' />
-    },
-    {
-        title: "nurudeen nurmanteezy'tobiloba lawal",
-        icon: <Avatar src='https://avatars.githubusercontent.com/u/70635657?s=460&u=eea4bb2b6dff02e5993458cecc93018eca3bd17d&v=4' className='leftNav__icon avatar' />
-    },
-    {
-        title: "nurudeen nurmanteezy'tobiloba lawal",
-        icon: <Avatar src='https://avatars.githubusercontent.com/u/70635657?s=460&u=eea4bb2b6dff02e5993458cecc93018eca3bd17d&v=4' className='leftNav__icon avatar' />
-    },
-    {
-        title: "nurudeen nurmanteezy'tobiloba lawal",
-        icon: <Avatar src='https://avatars.githubusercontent.com/u/70635657?s=460&u=eea4bb2b6dff02e5993458cecc93018eca3bd17d&v=4' className='leftNav__icon avatar' />
-    },
-]
+// export const rightNavArr = [
+//     {
+//         title: "nurudeen nurmanteezy'tobiloba lawal",
+//         icon: <Avatar src='https://avatars.githubusercontent.com/u/70635657?s=460&u=eea4bb2b6dff02e5993458cecc93018eca3bd17d&v=4' className='leftNav__icon avatar' />
+//     },
+//     {
+//         title: "nurudeen nurmanteezy'tobiloba lawal",
+//         icon: <Avatar src='https://avatars.githubusercontent.com/u/70635657?s=460&u=eea4bb2b6dff02e5993458cecc93018eca3bd17d&v=4' className='leftNav__icon avatar' />
+//     },
+//     {
+//         title: "nurudeen nurmanteezy'tobiloba lawal",
+//         icon: <Avatar src='https://avatars.githubusercontent.com/u/70635657?s=460&u=eea4bb2b6dff02e5993458cecc93018eca3bd17d&v=4' className='leftNav__icon avatar' />
+//     },
+//     {
+//         title: "nurudeen nurmanteezy'tobiloba lawal",
+//         icon: <Avatar src='https://avatars.githubusercontent.com/u/70635657?s=460&u=eea4bb2b6dff02e5993458cecc93018eca3bd17d&v=4' className='leftNav__icon avatar' />
+//     },
+//     {
+//         title: "nurudeen nurmanteezy'tobiloba lawal",
+//         icon: <Avatar src='https://avatars.githubusercontent.com/u/70635657?s=460&u=eea4bb2b6dff02e5993458cecc93018eca3bd17d&v=4' className='leftNav__icon avatar' />
+//     },
+//     {
+//         title: "nurudeen nurmanteezy'tobiloba lawal",
+//         icon: <Avatar src='https://avatars.githubusercontent.com/u/70635657?s=460&u=eea4bb2b6dff02e5993458cecc93018eca3bd17d&v=4' className='leftNav__icon avatar' />
+//     },
+//     {
+//         title: "nurudeen nurmanteezy'tobiloba lawal",
+//         icon: <Avatar src='https://avatars.githubusercontent.com/u/70635657?s=460&u=eea4bb2b6dff02e5993458cecc93018eca3bd17d&v=4' className='leftNav__icon avatar' />
+//     },
+//     {
+//         title: "nurudeen nurmanteezy'tobiloba lawal",
+//         icon: <Avatar src='https://avatars.githubusercontent.com/u/70635657?s=460&u=eea4bb2b6dff02e5993458cecc93018eca3bd17d&v=4' className='leftNav__icon avatar' />
+//     },
+//     {
+//         title: "nurudeen nurmanteezy'tobiloba lawal",
+//         icon: <Avatar src='https://avatars.githubusercontent.com/u/70635657?s=460&u=eea4bb2b6dff02e5993458cecc93018eca3bd17d&v=4' className='leftNav__icon avatar' />
+//     },
+//     {
+//         title: "nurudeen nurmanteezy'tobiloba lawal",
+//         icon: <Avatar src='https://avatars.githubusercontent.com/u/70635657?s=460&u=eea4bb2b6dff02e5993458cecc93018eca3bd17d&v=4' className='leftNav__icon avatar' />
+//     },
+//     {
+//         title: "nurudeen nurmanteezy'tobiloba lawal",
+//         icon: <Avatar src='https://avatars.githubusercontent.com/u/70635657?s=460&u=eea4bb2b6dff02e5993458cecc93018eca3bd17d&v=4' className='leftNav__icon avatar' />
+//     },
+//     {
+//         title: "nurudeen nurmanteezy'tobiloba lawal",
+//         icon: <Avatar src='https://avatars.githubusercontent.com/u/70635657?s=460&u=eea4bb2b6dff02e5993458cecc93018eca3bd17d&v=4' className='leftNav__icon avatar' />
+//     },
+//     {
+//         title: "nurudeen nurmanteezy'tobiloba lawal",
+//         icon: <Avatar src='https://avatars.githubusercontent.com/u/70635657?s=460&u=eea4bb2b6dff02e5993458cecc93018eca3bd17d&v=4' className='leftNav__icon avatar' />
+//     },
+//     {
+//         title: "nurudeen nurmanteezy'tobiloba lawal",
+//         icon: <Avatar src='https://avatars.githubusercontent.com/u/70635657?s=460&u=eea4bb2b6dff02e5993458cecc93018eca3bd17d&v=4' className='leftNav__icon avatar' />
+//     },
+//     {
+//         title: "nurudeen nurmanteezy'tobiloba lawal",
+//         icon: <Avatar src='https://avatars.githubusercontent.com/u/70635657?s=460&u=eea4bb2b6dff02e5993458cecc93018eca3bd17d&v=4' className='leftNav__icon avatar' />
+//     },
+//     {
+//         title: "nurudeen nurmanteezy'tobiloba lawal",
+//         icon: <Avatar src='https://avatars.githubusercontent.com/u/70635657?s=460&u=eea4bb2b6dff02e5993458cecc93018eca3bd17d&v=4' className='leftNav__icon avatar' />
+//     },
+// ]

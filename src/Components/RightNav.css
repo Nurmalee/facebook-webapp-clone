@@ -3,6 +3,7 @@
     margin-top: 60px;
     padding: 15px 0;
     display: flex;
+    align-self: flex-end;
     flex-direction: column;
     height: 100vh;
     overflow-y: scroll;
@@ -22,13 +23,18 @@
     background-color: rgb(224, 227, 230);
 }
 
+.rightNav__item .contact__avatar {
+    height: 28px;
+    width: 28px;
+}
+
 .rightNav__item > p {
     flex: 1;
     flex-wrap: wrap;
     overflow-wrap: break-word;
     padding-left: 10px;
     font-weight: 700;
-    font-size: 15px;
+    font-size: 14px;
     color: #333;
 }
 
