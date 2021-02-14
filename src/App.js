@@ -4,6 +4,8 @@ import TopNav from './Components/TopNav';
 import LeftNav from './Components/LeftNav';
 import TimeLine from './Components/TimeLine';
 import RightNav from './Components/RightNav';
+import Login from './Components/Login'
+
 
 
 function App() {
@@ -13,15 +15,25 @@ function App() {
   //   setWidth(windowWidth)
   // }, [])
 
-  return (
-    <div className="app">
-      {/* <h2>{width}</h2> */}
-     <TopNav />
-      <div className="app__body">
-        <LeftNav />
-        <TimeLine />
-        <RightNav />
+  const user = null
+
+  if(!user){
+    return(
+      <div className='app'>
+        <Login />
       </div>
+    )
+  }
+
+  return (
+   
+    <div className='app'>
+          <TopNav />
+          <div className='app__body'>
+            <LeftNav />
+            <TimeLine />
+            <RightNav />
+          </div>
     </div>
   );
 }
