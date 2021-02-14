@@ -1,14 +1,12 @@
 .app {
-    background-color: rgb(237, 238, 239);
+    background-color: #f1f2f5;
     min-height: 100vh;
-    width: 1346px;
-    /* align-items: center; */
-    /* margin: 0 auto; */
+    min-width: 1346px;
 }
 
 .app__body {
     padding: 0 10px;
     display: flex;
-    /* align-items: flex-start; */
     justify-content: center;
+    width: 100%;
 }

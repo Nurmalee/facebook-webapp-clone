@@ -1,7 +1,7 @@
 import React from 'react';
 import { AiFillHome, AiOutlineShop } from 'react-icons/ai';
 import { BsCollectionPlay } from 'react-icons/bs';
-import { HiOutlineUserGroup } from 'react-icons/hi';
+import { HiUserGroup } from 'react-icons/hi';
 import { CgGames } from 'react-icons/cg';
 import { TiWeatherDownpour } from 'react-icons/ti';
 import { FaFacebookMessenger } from 'react-icons/fa';
@@ -54,79 +54,7 @@ export const leftNavArr = [
     },
     {
         title: 'groups',
-        icon: <HiOutlineUserGroup className='leftNav__icon' />
-    },
-    {
-        title: 'marketplace',
-        icon: <AiOutlineShop className='leftNav__icon' />
-    },
-    {
-        title: 'watch',
-        icon: <BsCollectionPlay className='leftNav__icon' />
-    },
-    {
-        title: 'events',
-        icon: <FcCalendar className='leftNav__icon' />
-    },
-    {
-        title: 'memories',
-        icon: <GiBackwardTime className='leftNav__icon' />
-    },
-    {
-        title: 'saved',
-        icon: <GrSave className='leftNav__icon' />
-    },
-    {
-        title: 'ad center',
-        icon: <GiMicrophone className='leftNav__icon' />
-    },
-    {
-        title: 'ads manager',
-        icon: <BsCollectionPlay className='leftNav__icon' />
-    },
-    {
-        title: 'business manager',
-        icon: <SiNintendogamecube className='leftNav__icon' />
-    },
-    {
-        title: 'campus',
-        icon: <BsCollectionPlay className='leftNav__icon' />
-    },
-    {
-        title: 'community help',
-        icon: <SiNintendogamecube className='leftNav__icon' />
-    },
-    {
-        title: 'facebook pay',
-        icon: <BsCollectionPlay className='leftNav__icon' />
-    },
-    {
-        title: 'favourite',
-        icon: <SiNintendogamecube className='leftNav__icon' />
-    },
-    {
-        title: 'friend lists',
-        icon: <BsCollectionPlay className='leftNav__icon' />
-    },
-    {
-        title: 'fundraisers',
-        icon: <SiNintendogamecube className='leftNav__icon' />
-    },
-    {
-        title: 'games',
-        icon: <CgGames className='leftNav__icon' />
-    },
-    {
-        title: 'gaming video',
-        icon: <SiNintendogamecube className='leftNav__icon' />
-    },
-    {
-        title: 'jobs',
-        icon: <BsCollectionPlay className='leftNav__icon' />
-    },
-    {
-        title: 'live videos',
-        icon: <SiNintendogamecube className='leftNav__icon' />
+        icon: <HiUserGroup className='leftNav__icon' />
     },
     {
         title: 'messenger',
@@ -137,25 +65,97 @@ export const leftNavArr = [
         icon: <RiMessage2Fill className='leftNav__icon' />
     },
     {
-        title: 'most recent',
+        title: 'ad center',
+        icon: <GiMicrophone className='leftNav__icon' />
+    },
+    {
+        title: 'marketplace',
+        icon: <AiOutlineShop className='leftNav__icon' />
+    },
+    {
+        title: 'watch',
         icon: <BsCollectionPlay className='leftNav__icon' />
     },
     {
-        title: 'offers',
+        title: 'games',
+        icon: <CgGames className='leftNav__icon' />
+    },
+    {
+        title: 'gaming video',
         icon: <SiNintendogamecube className='leftNav__icon' />
     },
     {
-        title: 'pages',
+        title: 'memories',
+        icon: <GiBackwardTime className='leftNav__icon' />
+    },
+    {
+        title: 'events',
+        icon: <FcCalendar className='leftNav__icon' />
+    },
+    // {
+    //     title: 'saved',
+    //     icon: <GrSave className='leftNav__icon' />
+    // },
+    // {
+    //     title: 'ads manager',
+    //     icon: <BsCollectionPlay className='leftNav__icon' />
+    // },
+    {
+        title: 'business manager',
+        icon: <SiNintendogamecube className='leftNav__icon' />
+    },
+    // {
+    //     title: 'campus',
+    //     icon: <BsCollectionPlay className='leftNav__icon' />
+    // },
+    // {
+    //     title: 'community help',
+    //     icon: <SiNintendogamecube className='leftNav__icon' />
+    // },
+    {
+        title: 'facebook pay',
         icon: <BsCollectionPlay className='leftNav__icon' />
     },
+    // {
+    //     title: 'favourite',
+    //     icon: <SiNintendogamecube className='leftNav__icon' />
+    // },
+    // {
+    //     title: 'friend lists',
+    //     icon: <BsCollectionPlay className='leftNav__icon' />
+    // },
+    // {
+    //     title: 'fundraisers',
+    //     icon: <SiNintendogamecube className='leftNav__icon' />
+    // },
     {
-        title: 'recent ad activity',
-        icon: <SiNintendogamecube className='leftNav__icon' />
+        title: 'jobs',
+        icon: <BsCollectionPlay className='leftNav__icon' />
     },
-    {
-        title: 'tournament',
-        icon: <SiNintendogamecube className='leftNav__icon' />
-    },
+    // {
+    //     title: 'live videos',
+    //     icon: <SiNintendogamecube className='leftNav__icon' />
+    // },
+    // {
+    //     title: 'most recent',
+    //     icon: <BsCollectionPlay className='leftNav__icon' />
+    // },
+    // {
+    //     title: 'offers',
+    //     icon: <SiNintendogamecube className='leftNav__icon' />
+    // },
+    // {
+    //     title: 'pages',
+    //     icon: <BsCollectionPlay className='leftNav__icon' />
+    // },
+    // {
+    //     title: 'recent ad activity',
+    //     icon: <SiNintendogamecube className='leftNav__icon' />
+    // },
+    // {
+    //     title: 'tournament',
+    //     icon: <SiNintendogamecube className='leftNav__icon' />
+    // },
     {
         title: 'weather',
         icon: <TiWeatherDownpour className='leftNav__icon' />

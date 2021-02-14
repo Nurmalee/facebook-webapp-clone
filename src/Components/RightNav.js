@@ -16,6 +16,7 @@ const RightNav = () => {
                 const resp = await fetch(randomUsersUrl)
                 const users = await resp.json()
                 setContacts(users.results)
+                console.log(users.results);
             }
             getUsers()
             setIsLoading(false)
@@ -37,11 +38,11 @@ const RightNav = () => {
         <section className='rightNav'>
             {
                contacts.map((navItem, i) => {
-                   const {name:{first, last}, picture:{large}} = navItem
+                   const {name:{first, last}, picture:{large}, location:{country}} = navItem
                    return (
                         <div className='rightNav__item' key={i} >
                             <Avatar src={large} className='contact__avatar' />
-                            <p>{first} {last}</p>
+                            <p>{first} {last}, {country} </p>
                         </div>
                    )
                })

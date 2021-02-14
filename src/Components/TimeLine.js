@@ -39,7 +39,9 @@ const TimeLine = () => {
             <div className="timeLine__input">
                 <div className="input__input">
                     <Avatar src={me} />
-                    <input type="text" placeholder="What's on your mind, Nurudeen?"/>
+                    <form>
+                        <input type="text" placeholder="What's on your mind, Nurudeen?"/>
+                    </form>
                 </div>
                 <hr />
                 <div className="input__extra">

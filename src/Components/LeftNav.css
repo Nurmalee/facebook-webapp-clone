@@ -1,5 +1,6 @@
 .leftNav {
     flex: 0.25;
+    width: 25%;
     margin-top: 60px;
     padding: 15px 0;
     display: flex;
@@ -33,8 +34,8 @@
 }
 
 .leftNav__icon.avatar {
-    height: 28px;
-    width: 28px;
+    height: 30px;
+    width: 30px;
 }
 
 .leftNav__icon {
