@@ -1,6 +1,55 @@
 .rightNav {
     flex: 0.25;
-    border: 1px solid;
     margin-top: 60px;
     padding: 15px 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow-y: scroll;
+}
+
+.rightNav__item {
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    padding: 10px 0;
+    padding-left: 10px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.rightNav__item:hover {
+    background-color: rgb(224, 227, 230);
+}
+
+.rightNav__item > p {
+    flex: 1;
+    flex-wrap: wrap;
+    overflow-wrap: break-word;
+    padding-left: 10px;
+    font-weight: 700;
+    font-size: 15px;
+    color: #333;
+}
+
+/* scrollbar */
+.rightNav::-webkit-scrollbar {
+    width: 8px;
+}
+
+.rightNav:hover::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.rightNav::-webkit-scrollbar-track:hover {
+    background: rgb(221, 222, 222);
+}
+  
+.rightNav::-webkit-scrollbar-thumb {
+    /* background: #555; */
+    border-radius: 30px;
+}
+  
+.rightNav:hover::-webkit-scrollbar-thumb {
+    background: rgb(183, 183, 183);
 }

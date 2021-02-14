@@ -46,11 +46,8 @@ const TimeLine = () => {
                         return (
                             <div className='timeLine__story'>
                                 <img src={img1} alt={name} />
-                                {/* <div> */}
                                 <Avatar src={img2} className='timeLine__story__avatar' />
                                 <p>{name}</p>
-                                {/* </div> */}
-                               
                             </div>
                         )
                     })
