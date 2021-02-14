@@ -6,4 +6,6 @@
 .app__body {
     padding: 0 10px;
     display: flex;
+    /* align-items: flex-start; */
+    justify-content: center;
 }

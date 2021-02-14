@@ -176,9 +176,9 @@ export const storiesArr = [
         img1: 'https://scontent.flos2-2.fna.fbcdn.net/v/t1.0-9/87784141_10158135060708988_6327319981943947264_o.jpg?_nc_cat=107&ccb=3&_nc_sid=09cbfe&_nc_eui2=AeFC6Ez7eRHGl6TVrlGZx4grHGISmaELNRYcYhKZoQs1Figea7jqHQSRF8B1MzEFTTbKiwrxhRx33RJtix_MlECL&_nc_ohc=VrpqXc-BdBwAX-GFpoj&_nc_ht=scontent.flos2-2.fna&oh=0f30f2c0225e46279dba7b78b849c088&oe=604F1D7A',
         img2: 'https://scontent.flos2-1.fna.fbcdn.net/v/t31.0-8/12628411_10153883107758988_3934077413768572328_o.jpg?_nc_cat=108&ccb=3&_nc_sid=174925&_nc_eui2=AeEr3DbaQjVQY0XSojPgIaHRfOldp_PBHth86V2n88Ee2L3trE-34MYd5sJZX0M-5yWEZdsmacD-Tu3NUQ5WdmQB&_nc_ohc=Ii0ox9Xx454AX8IjS9R&_nc_ht=scontent.flos2-1.fna&oh=c3c14328b30b0d4553accac6a28e3c88&oe=604D6EEB',
     },
-    {
-        name: 'Emmanuel Onoruoyiza Ohida',
-        img1: 'https://scontent.flos2-1.fna.fbcdn.net/v/t1.0-9/s720x720/149405145_4103758552968794_6463829145551274347_o.jpg?_nc_cat=108&ccb=3&_nc_sid=e3f864&_nc_eui2=AeEOjNc3RTrtMNnOQx-G26GoNlGMSNEi2No2UYxI0SLY2mTP8EeHnCvFQxb24o1GL-k4JRi5h4cGkGm8ZjUNYJ8M&_nc_ohc=GLxV2Lsf2fAAX-lW5X6&_nc_ht=scontent.flos2-1.fna&tp=7&oh=f29af1977f73afc31475b4cd65950881&oe=604BFF41',
-        img2: 'https://scontent.flos2-1.fna.fbcdn.net/v/t1.0-9/s720x720/149405145_4103758552968794_6463829145551274347_o.jpg?_nc_cat=108&ccb=3&_nc_sid=e3f864&_nc_eui2=AeEOjNc3RTrtMNnOQx-G26GoNlGMSNEi2No2UYxI0SLY2mTP8EeHnCvFQxb24o1GL-k4JRi5h4cGkGm8ZjUNYJ8M&_nc_ohc=GLxV2Lsf2fAAX-lW5X6&_nc_ht=scontent.flos2-1.fna&tp=7&oh=f29af1977f73afc31475b4cd65950881&oe=604BFF41',
-    },
+    // {
+    //     name: 'Emmanuel Onoruoyiza Ohida',
+    //     img1: 'https://scontent.flos2-1.fna.fbcdn.net/v/t1.0-9/s720x720/149405145_4103758552968794_6463829145551274347_o.jpg?_nc_cat=108&ccb=3&_nc_sid=e3f864&_nc_eui2=AeEOjNc3RTrtMNnOQx-G26GoNlGMSNEi2No2UYxI0SLY2mTP8EeHnCvFQxb24o1GL-k4JRi5h4cGkGm8ZjUNYJ8M&_nc_ohc=GLxV2Lsf2fAAX-lW5X6&_nc_ht=scontent.flos2-1.fna&tp=7&oh=f29af1977f73afc31475b4cd65950881&oe=604BFF41',
+    //     img2: 'https://scontent.flos2-1.fna.fbcdn.net/v/t1.0-9/s720x720/149405145_4103758552968794_6463829145551274347_o.jpg?_nc_cat=108&ccb=3&_nc_sid=e3f864&_nc_eui2=AeEOjNc3RTrtMNnOQx-G26GoNlGMSNEi2No2UYxI0SLY2mTP8EeHnCvFQxb24o1GL-k4JRi5h4cGkGm8ZjUNYJ8M&_nc_ohc=GLxV2Lsf2fAAX-lW5X6&_nc_ht=scontent.flos2-1.fna&tp=7&oh=f29af1977f73afc31475b4cd65950881&oe=604BFF41',
+    // },
 ]

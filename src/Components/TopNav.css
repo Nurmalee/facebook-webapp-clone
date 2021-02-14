@@ -4,7 +4,6 @@
     right: 0;
     width: 100%;
     z-index: 100;
-    /* overflow-x: scroll; */
     background-color: white;
     display: flex;
     align-items: center;
@@ -15,9 +14,7 @@
 }
 
 .topNav__left {
-    /* border: 1px solid; */
     flex: 0.25;
-    width: fit-content;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -32,7 +29,6 @@
 .topNav__search {
     display: flex;
     align-items: center;
-    /* border: 1px solid; */
     flex: 1;
     padding: 0 10px;
     height: 40px;
@@ -47,7 +43,6 @@
     width: 100%;
     padding: 9px;
     border: none;
-    /* max-width: 300px; */
     outline: none;
     border-radius: 50px;
     color: grey;
@@ -60,7 +55,6 @@
     list-style-type: none;
     display: flex;
     align-items: center;
-    /* border: 1px solid; */
 }
 
 .topNav__center {
@@ -69,17 +63,11 @@
     justify-content: center;
 }
 
-.topNav__right {
-    flex: 0.25;
-    justify-content: space-between;
-}
-
 .topNav__center > li {
     /* border: 1px solid; */
     padding: 8px 0;
     width: 20%;
     text-align: center;
-    align-items: center;
     border-radius: 5px;
     position: relative;
     cursor: pointer;
@@ -113,11 +101,16 @@
     color: rgb(28, 135, 216);
 }
 
+.topNav__right {
+    flex: 0.25;
+    justify-content: space-between;
+}
 
 .topNav__right > li {
     padding: 10px 12px;
-    /* margin: 0 5px; */
-    /* border: 1px solid; */
+    margin: 3px;
+    width: 20%;
+    text-align: center;
     border-radius: 50%;
     background-color: rgb(230, 232, 234);
     cursor: pointer;
@@ -128,15 +121,14 @@
 }
 
 .topNav__right .topNav__icon {
-    height: 17px;
-    width: 17px;
+    height: 18px;
+    width: 18px;
     color: black;
 }
 
 .avatar-container {
     display: flex;
     align-items: center;
-    /* margin: 0 10px; */
     padding: 0 3px;
     padding-right: 10px;
     cursor: pointer;
