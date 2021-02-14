@@ -2,7 +2,8 @@
 .timeLine__input {
     /* border: 1px solid; */
     max-width: 80%;
-    margin: 25px auto;
+    margin: 0 auto;
+    margin-top: 25px;
     padding: 15px;
     border-radius: 7px;
     background-color: white;

@@ -1,0 +1,49 @@
+.timeLine__post {
+    max-width: 80%;
+    margin: 15px auto 0 auto;
+    padding: 15px;
+    border-radius: 7px;
+    background-color: white;
+    box-shadow: 0 0 2px grey;
+    color: #444;
+}
+
+.timeLine__postTop {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-bottom: 10px;
+}
+
+.timeLine__postTopInfo {
+    display: flex;
+}
+
+.timeLine__postTopUser {
+    margin-left: 10px;
+}
+
+.timeLine__postTopUser >  h2 {
+    font-size: 17px;
+}
+
+.timeLine__postTopUser > p {
+    font-size: 11px;
+}
+
+.timeLine__postTopDots {
+    align-self: flex-start;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.timeLine__postTopDots:hover {
+    background-color: #ccc;
+}
+
+.timeLine__post > p {
+    font-size: 16px;
+    font-weight: 400;
+}
+
