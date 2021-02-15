@@ -4,7 +4,8 @@ import TopNav from './Components/TopNav';
 import LeftNav from './Components/LeftNav';
 import TimeLine from './Components/TimeLine';
 import RightNav from './Components/RightNav';
-import Login from './Components/Login'
+import Login from './Components/Login';
+import { useStateValue } from './StateProvider'
 
 
 
@@ -15,7 +16,7 @@ function App() {
   //   setWidth(windowWidth)
   // }, [])
 
-  const user = null
+  const [{user}, dispatch] = useStateValue()
 
   if(!user){
     return(

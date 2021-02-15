@@ -8,9 +8,11 @@ import { TiArrowSortedDown } from 'react-icons/ti';
 import { HiOutlineUserGroup } from 'react-icons/hi';
 import { CgGames } from 'react-icons/cg';
 import Avatar from '@material-ui/core/Avatar';
-
+import { useStateValue } from '.././StateProvider'
 
 const TopNav = () => {
+
+    const [{user}, dispatch] = useStateValue()
 
     //returns all top nav icon layout
     const navIconTemp = (Icon) => {
@@ -37,13 +39,13 @@ const TopNav = () => {
             </ul>
             <ul className="topNav__right">
                 <div className="avatar-container">
-                    <Avatar src='https://avatars.githubusercontent.com/u/70635657?s=460&u=eea4bb2b6dff02e5993458cecc93018eca3bd17d&v=4' className='avatar' />
-                    <h4>Nurudeen</h4>
+                    <Avatar src={user.photoURL} className='avatar' />
+                    <h4>{user.displayName}</h4>
                 </div>
                 {navIconTemp(AiOutlinePlus)}
                 {navIconTemp(FaFacebookMessenger)}
                 {navIconTemp(FaBell)}
-                {navIconTemp(TiArrowSortedDown)}
+                {/* {navIconTemp(TiArrowSortedDown)} */}
             </ul>
         </nav>
     )

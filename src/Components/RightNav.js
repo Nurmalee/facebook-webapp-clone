@@ -22,7 +22,7 @@ const RightNav = () => {
             setIsLoading(false)
         }
         catch(err) {
-            console.log(err.message);
+            alert(err.message);
         }
     }, [])
 

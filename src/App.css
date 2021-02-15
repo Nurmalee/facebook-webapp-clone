@@ -1,7 +1,8 @@
 .app {
-    background-color: #f1f2f5;
+    /* background-color: #f1f2f5; */
     min-height: 100vh;
     min-width: 1346px;
+    position: relative;
 }
 
 .app__body {

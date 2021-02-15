@@ -51,7 +51,7 @@
 }
 
 .timeLine__postImage {
-    height: 300px;
+    height: fit-content;
     /* display: none; */
 }
 

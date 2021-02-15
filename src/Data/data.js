@@ -40,10 +40,10 @@ import Avatar from '@material-ui/core/Avatar';
 
 
 export const leftNavArr = [
-    {
-        title: "nurudeen nurmanteezy'tobiloba lawal",
-        icon: <Avatar src='https://avatars.githubusercontent.com/u/70635657?s=460&u=eea4bb2b6dff02e5993458cecc93018eca3bd17d&v=4' className='leftNav__icon avatar' />
-    },
+    // {
+    //     title: "nurudeen nurmanteezy'tobiloba lawal",
+    //     icon: <Avatar src='https://avatars.githubusercontent.com/u/70635657?s=460&u=eea4bb2b6dff02e5993458cecc93018eca3bd17d&v=4' className='leftNav__icon avatar' />
+    // },
     {
         title: 'COVID-19 information center',
         icon: <BsCollectionPlay className='leftNav__icon' />
