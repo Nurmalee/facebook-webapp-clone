@@ -1,5 +1,5 @@
 export const initialState = {
-    user: 'lee'
+    user: null
 }
 
 export const SET_USER = 'SET_USER'

@@ -8,6 +8,7 @@ const randomUsersUrl = 'https://randomuser.me/api/?results=20'
 const RightNav = () => {
     const [contacts, setContacts] = useState([])
     const [isLoading, setIsLoading] = useState(true)
+    const [err, setErr] = useState(null)
 
     useEffect(() => {
         setIsLoading(true)
@@ -23,6 +24,7 @@ const RightNav = () => {
         }
         catch(err) {
             alert(err.message);
+            setErr(err.message)
         }
     }, [])
 
@@ -30,6 +32,7 @@ const RightNav = () => {
         return (
             <section className='rightNav'>
                 <h1>LOADING....</h1>
+                <h2>{err}</h2>
             </section>
         )
     }

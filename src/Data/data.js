@@ -1,15 +1,14 @@
 import React from 'react';
 import { AiFillHome, AiOutlineShop } from 'react-icons/ai';
-import { BsCollectionPlay } from 'react-icons/bs';
+import { BsCollectionPlay, BsBriefcaseFill } from 'react-icons/bs';
 import { HiUserGroup } from 'react-icons/hi';
 import { CgGames } from 'react-icons/cg';
 import { TiWeatherDownpour } from 'react-icons/ti';
-import { FaFacebookMessenger } from 'react-icons/fa';
+import { FaFacebookMessenger, FaBriefcaseMedical, FaUserFriends } from 'react-icons/fa';
 import { RiMessage2Fill } from 'react-icons/ri';
-import { SiNintendogamecube } from 'react-icons/si';
+import { SiNintendogamecube, SiMarketo } from 'react-icons/si';
 import { FcCalendar } from 'react-icons/fc';
-import { GrSave } from 'react-icons/gr';
-import { GiThreeFriends, GiBackwardTime, GiMicrophone } from 'react-icons/gi';
+import { GiBackwardTime, GiSave } from 'react-icons/gi';
 
 
 // import Avatar from '@material-ui/core/Avatar';
@@ -46,7 +45,7 @@ export const leftNavArr = [
     // },
     {
         title: 'COVID-19 information center',
-        Icon: BsCollectionPlay,
+        Icon: FaBriefcaseMedical,
     },
     {
         title: 'groups',
@@ -59,11 +58,15 @@ export const leftNavArr = [
     },
     {
         title: 'friends',
-        Icon: GiThreeFriends,
+        Icon: FaUserFriends,
+    },
+    {
+        title: 'jobs',
+        Icon: BsBriefcaseFill
     },
     {
         title: 'ad center',
-        Icon: GiMicrophone,
+        Icon: SiMarketo,
         color: 'orange'
     },
     {
@@ -102,7 +105,7 @@ export const leftNavArr = [
     },
     {
         title: 'saved',
-        Icon: GrSave,
+        Icon: GiSave,
         color: 'purple'
     },
     // {
@@ -136,10 +139,6 @@ export const leftNavArr = [
     // {
     //     title: 'fundraisers',
     //     icon: <SiNintendogamecube className='leftNav__icon' />
-    // },
-    // {
-    //     title: 'jobs',
-    //     icon: <BsCollectionPlay className='leftNav__icon' />
     // },
     // {
     //     title: 'live videos',
