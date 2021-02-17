@@ -3,8 +3,9 @@ import './TopNav.css';
 import { GoSearch } from 'react-icons/go';
 import { AiFillHome, AiOutlineShop, AiOutlinePlus } from 'react-icons/ai';
 import { FaFacebookMessenger, FaBell, FaFacebook } from 'react-icons/fa';
-import { BsCollectionPlay } from 'react-icons/bs';
-import { TiArrowSortedDown } from 'react-icons/ti';
+// import { BsCollectionPlay } from 'react-icons/bs';
+import { MdOndemandVideo } from 'react-icons/md';
+// import { TiArrowSortedDown } from 'react-icons/ti';
 import { HiOutlineUserGroup } from 'react-icons/hi';
 import { CgGames } from 'react-icons/cg';
 import Avatar from '@material-ui/core/Avatar';
@@ -32,7 +33,7 @@ const TopNav = () => {
             </div>
             <ul className="topNav__center">
                 {navIconTemp(AiFillHome, 'home')}
-                {navIconTemp(BsCollectionPlay, 'watch')}
+                {navIconTemp(MdOndemandVideo, 'watch')}
                 {navIconTemp(AiOutlineShop, 'marketplace')}
                 {navIconTemp(HiOutlineUserGroup, 'groups')}
                 {navIconTemp(CgGames, 'gaming')}

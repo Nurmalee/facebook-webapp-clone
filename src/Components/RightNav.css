@@ -36,10 +36,11 @@
     content: "";
     position: absolute;
     background-color: green;
-    height: 8px;
-    width: 8px;
+    height: 5px;
+    width: 5px;
     bottom: 0;
     /* right: 0; */
+    border: 2px solid white;
     border-radius: 50%;
     z-index: 20;
 }

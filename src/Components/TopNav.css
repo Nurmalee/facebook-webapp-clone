@@ -165,6 +165,22 @@
     display: block;
 }
 
+/* .topNav__center li:nth-child(3) .topNav__icon {
+    position: relative;
+}
+
+.topNav__center li:nth-child(3) .topNav__icon::before {
+   content: '3';
+   position: absolute;
+   right: 0;
+   top: 0;
+   height: 20px;
+   width: 20px;
+   border-radius: 50%;
+   background-color: darkred;
+   z-index: 30;
+} */
+
 .avatar-container {
     display: flex;
     align-items: center;

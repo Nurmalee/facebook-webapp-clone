@@ -1,6 +1,7 @@
 import React from 'react';
 import { AiFillHome, AiOutlineShop } from 'react-icons/ai';
-import { BsCollectionPlay, BsBriefcaseFill } from 'react-icons/bs';
+import { BsBriefcaseFill } from 'react-icons/bs';
+import { MdOndemandVideo } from 'react-icons/md';
 import { HiUserGroup } from 'react-icons/hi';
 import { CgGames } from 'react-icons/cg';
 import { TiWeatherDownpour } from 'react-icons/ti';
@@ -81,7 +82,7 @@ export const leftNavArr = [
     },
     {
         title: 'watch',
-        Icon: BsCollectionPlay,
+        Icon: MdOndemandVideo,
         color: 'purple'
     },
     {

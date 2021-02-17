@@ -36,9 +36,9 @@
     color: #333;
 }
 
-.leftNav__icon.avatar {
-    height: 30px;
-    width: 30px;
+.leftNav__item .avatar {
+    height: 28px;
+    width: 28px;
 }
 
 .leftNav__icon {

@@ -11,7 +11,7 @@ const LeftNav = () => {
     const leftNavUserTemp = () => {
         return (
             <div className='leftNav__item' >
-                <Avatar  src={user.photoURL} />
+                <Avatar  src={user.photoURL} className='avatar' />
                 <p>{user.displayName}</p>
             </div>
         )
