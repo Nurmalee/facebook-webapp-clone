@@ -15,30 +15,40 @@
     z-index: 2;
 }
 
-.login__logo img {
+.login__logo > img {
     height: 150px;
     color: white;
 }
 
-.login__logo h1 {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-weight: 200;
-    /* font-size: 30px; */
+.login__logo > h1 {
+    font-family: 'Reggae One', cursive;
     color: white;
     letter-spacing: 1px;
-    text-transform: uppercase;
+    text-transform: capitalize;
 }
 
-.login button {
-    color: black;
+.login__logo > h4 {
+    color: rgb(0, 179, 255);
+    text-transform: capitalize;
+    font-family: 'Reggae One', cursive;
+    /* font-family: 'Oswald', sans-serif; */
+    /* font-family: 'Ballet', cursive; */
+    /* font-family: 'Montserrat', sans-serif; */
+    margin-top: 10px;
+}
+
+.login > button {
+    color: white;
     text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 4px;
     font-weight: 900;
     font-size: 11px;
     padding: 10px 3rem;
-    margin-top: 5rem;
+    margin-top: 3rem;
     outline:  none;
-    border: 1px solid black;
-    background-color: #ccc;
+    border: 1px solid white;
+    background-color: black;
     border-radius: 5px;
     cursor: pointer;
     transition: 500ms;
@@ -47,7 +57,7 @@
 
 .login button:hover {
     padding: 10px 5rem;
-    background-color: white;
+    /* background-color: white; */
 }
 
 .login__background {
@@ -62,7 +72,15 @@
     /* height: 80vh; */
 }
 
-.login__background img {
+.login__background > img {
     object-fit: contain;
     width: 100%;
+}
+
+.login__creator {
+    border: 2px solid white;
+    margin: 0 auto;
+    height: 50px !important;
+    width: 50px !important;
+    margin-top: 10px;
 }

@@ -4,8 +4,8 @@ import Avatar from '@material-ui/core/Avatar';
 import { RiVideoAddFill } from 'react-icons/ri';
 import { FaPhotoVideo, FaRegSmile } from 'react-icons/fa';
 import { useStateValue } from '.././StateProvider'
-import db from '.././firebase'
-import firebase from 'firebase'
+import db from '../firebase'
+import firebase from 'firebase/app'
 
 const TimeLineInput = () => {
     const [{user}, dispatch] = useStateValue()
@@ -16,13 +16,15 @@ const TimeLineInput = () => {
     const handleFormSubmission = (e) => {
         e.preventDefault()
 
-        db.collection("posts").add({
-            message: textInput,
-            timestamp: firebase.firestore.FieldValue.serverTimestamp(),
-            profilePic: user.photoURL,
-            username: user.displayName,
-            image: imageFile
-        })
+        if(textInput){
+            db.collection("posts").add({
+                timestamp: firebase.firestore.FieldValue.serverTimestamp(),
+                image: imageFile,
+                message: textInput,
+                profilePic: user.photoURL,
+                username: user.displayName,
+            })
+        }
 
         setTextInput('')
         setImageFile('')

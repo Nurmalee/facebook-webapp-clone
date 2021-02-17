@@ -34,7 +34,8 @@ const TimeLinePost = ({ profilePic, image, timestamp, message, username }) => {
             <p>{message}</p>
 
             <div className="timeLine__postImage">
-                <img src={image} alt="uploaded image"/>
+                {image &&  <img src={image} alt="uploaded image"/>}
+               
             </div>
 
             <div className="timeLine__postButtons">
