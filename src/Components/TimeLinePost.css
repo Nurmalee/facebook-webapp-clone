@@ -3,7 +3,7 @@
     margin: 15px auto 0 auto;
     border-radius: 7px;
     background-color: white;
-    box-shadow: 0 0 2px grey;
+    box-shadow: 0 2px 4px 1px #ccc;
     color: #444;
 }
 

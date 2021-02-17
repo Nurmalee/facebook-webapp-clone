@@ -15,9 +15,9 @@ const TopNav = () => {
     const [{user}, dispatch] = useStateValue()
 
     //returns all top nav icon layout
-    const navIconTemp = (Icon) => {
+    const navIconTemp = (Icon, title) => {
         return (
-            <li> <Icon className='topNav__icon'/> </li>
+            <li> <Icon className='topNav__icon'/> <span className="after">{title}</span> </li>
         )
     }
 
@@ -31,21 +31,21 @@ const TopNav = () => {
                 </div>
             </div>
             <ul className="topNav__center">
-                {navIconTemp(AiFillHome)}
-                {navIconTemp(BsCollectionPlay)}
-                {navIconTemp(AiOutlineShop)}
-                {navIconTemp(HiOutlineUserGroup)}
-                {navIconTemp(CgGames)}
+                {navIconTemp(AiFillHome, 'home')}
+                {navIconTemp(BsCollectionPlay, 'watch')}
+                {navIconTemp(AiOutlineShop, 'marketplace')}
+                {navIconTemp(HiOutlineUserGroup, 'groups')}
+                {navIconTemp(CgGames, 'gaming')}
             </ul>
             <ul className="topNav__right">
                 <div className="avatar-container">
                     <Avatar src={user.photoURL} className='avatar' />
                     <h4>{user.displayName}</h4>
                 </div>
-                {navIconTemp(AiOutlinePlus)}
-                {navIconTemp(FaFacebookMessenger)}
-                {navIconTemp(FaBell)}
-                {/* {navIconTemp(TiArrowSortedDown)} */}
+                {navIconTemp(AiOutlinePlus, 'create')}
+                {navIconTemp(FaFacebookMessenger, 'messenger')}
+                {navIconTemp(FaBell, 'notifications')}
+                {/* {navIconTemp(TiArrowSortedDown, 'account')} */}
             </ul>
         </nav>
     )

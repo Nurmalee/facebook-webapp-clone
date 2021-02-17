@@ -136,6 +136,35 @@
     color: black;
 }
 
+.topNav__center li,
+.topNav__right li {
+    position: relative;
+}
+
+.topNav__center li .after,
+.topNav__right li .after {
+    /* color: red; */
+    position: absolute;
+    bottom: -40px;
+    left: 50%;
+    transform: translate(-50%);
+    border: 1px solid transparent;
+    padding: 7px 15px;
+    border-radius: 7px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #eee;
+    font-size: 13px;
+    text-transform: capitalize;
+    visibility: none;
+    display: none;
+}
+
+.topNav__center li:hover .after,
+.topNav__right li:hover .after {
+    visibility: visible;
+    display: block;
+}
+
 .avatar-container {
     display: flex;
     align-items: center;

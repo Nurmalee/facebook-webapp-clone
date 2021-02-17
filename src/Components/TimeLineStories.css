@@ -15,7 +15,8 @@
     border-radius: 10px;
     position: relative;
     cursor: pointer;
-    box-shadow: 0 0 5px grey;
+    /* box-shadow: 0 0 5px grey; */
+    box-shadow: 0 2px 4px 1px #aaa;
 }
 
 .timeLine__story img {
