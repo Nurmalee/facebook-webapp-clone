@@ -46,64 +46,64 @@ export const leftNavArr = [
     // },
     {
         title: 'COVID-19 information center',
-        icon: <BsCollectionPlay className='leftNav__icon' />
+        Icon: BsCollectionPlay
     },
     {
         title: 'friends',
-        icon: <GiThreeFriends className='leftNav__icon' />
+        Icon: GiThreeFriends
     },
     {
         title: 'groups',
-        icon: <HiUserGroup className='leftNav__icon' />
+        Icon: HiUserGroup
     },
     {
         title: 'messenger',
-        icon: <FaFacebookMessenger className='leftNav__icon' />
+        Icon: FaFacebookMessenger
     },
     {
         title: 'messenger kids',
-        icon: <RiMessage2Fill className='leftNav__icon' />
+        Icon: RiMessage2Fill
     },
     {
         title: 'ad center',
-        icon: <GiMicrophone className='leftNav__icon' />
+        Icon: GiMicrophone
     },
     {
         title: 'marketplace',
-        icon: <AiOutlineShop className='leftNav__icon' />
+        Icon: AiOutlineShop
     },
     {
         title: 'watch',
-        icon: <BsCollectionPlay className='leftNav__icon' />
+        Icon: BsCollectionPlay
     },
     {
         title: 'games',
-        icon: <CgGames className='leftNav__icon' />
+        Icon: CgGames
     },
     {
         title: 'gaming video',
-        icon: <SiNintendogamecube className='leftNav__icon' />
+        Icon: SiNintendogamecube
     },
     {
         title: 'memories',
-        icon: <GiBackwardTime className='leftNav__icon' />
+        Icon: GiBackwardTime
     },
     {
         title: 'events',
-        icon: <FcCalendar className='leftNav__icon' />
+        Icon: FcCalendar
     },
-    // {
-    //     title: 'saved',
-    //     icon: <GrSave className='leftNav__icon' />
-    // },
+    {
+        title: 'saved',
+        Icon: GrSave
+    },
     // {
     //     title: 'ads manager',
-    //     icon: <BsCollectionPlay className='leftNav__icon' />
+    //     Icon: BsCollectionPlay
     // },
-    {
-        title: 'business manager',
-        icon: <SiNintendogamecube className='leftNav__icon' />
-    },
+    // {
+    //     title: 'business manager',
+    //     icon: <SiNintendogamecube className='leftNav__icon' />
+    // },
     // {
     //     title: 'campus',
     //     icon: <BsCollectionPlay className='leftNav__icon' />
@@ -112,10 +112,10 @@ export const leftNavArr = [
     //     title: 'community help',
     //     icon: <SiNintendogamecube className='leftNav__icon' />
     // },
-    {
-        title: 'facebook pay',
-        icon: <BsCollectionPlay className='leftNav__icon' />
-    },
+    // {
+    //     title: 'facebook pay',
+    //     icon: <BsCollectionPlay className='leftNav__icon' />
+    // },
     // {
     //     title: 'favourite',
     //     icon: <SiNintendogamecube className='leftNav__icon' />
@@ -128,10 +128,10 @@ export const leftNavArr = [
     //     title: 'fundraisers',
     //     icon: <SiNintendogamecube className='leftNav__icon' />
     // },
-    {
-        title: 'jobs',
-        icon: <BsCollectionPlay className='leftNav__icon' />
-    },
+    // {
+    //     title: 'jobs',
+    //     icon: <BsCollectionPlay className='leftNav__icon' />
+    // },
     // {
     //     title: 'live videos',
     //     icon: <SiNintendogamecube className='leftNav__icon' />
@@ -158,7 +158,7 @@ export const leftNavArr = [
     // },
     {
         title: 'weather',
-        icon: <TiWeatherDownpour className='leftNav__icon' />
+        Icon: TiWeatherDownpour
     }
 ]
 

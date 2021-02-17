@@ -18,7 +18,7 @@ const TimeLineInput = () => {
 
         if(textInput){
             db.collection("posts").add({
-                timestamp: firebase.firestore.FieldValue.serverTimestamp(),
+                createdAt: firebase.firestore.FieldValue.serverTimestamp(),
                 image: imageFile,
                 message: textInput,
                 profilePic: user.photoURL,

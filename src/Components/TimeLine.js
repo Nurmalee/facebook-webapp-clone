@@ -9,9 +9,8 @@ const TimeLine = () => {
     const [posts, setPosts] = useState([])
 
     useEffect(() => {
-        db.collection("posts").orderBy('timestamp', 'desc').onSnapshot(snapshot => {
+        db.collection("posts").orderBy('createdAt', 'desc').onSnapshot(snapshot => {
           setPosts(snapshot.docs.map(doc => ({id: doc.id, data: doc.data()})))
-          console.log(snapshot.docs);
         })
     }, [])
 
@@ -22,9 +21,9 @@ const TimeLine = () => {
 
             {
                 posts.map(post => {
-                    const {profilePic, image, timestamp, message, username} = post.data
+                    const {profilePic, image, createdAt, message, username} = post.data
                     return (
-                        <TimeLinePost key={post.id} profilePic={profilePic} image={image} timestamp={timestamp} message={message} username={username} />
+                        <TimeLinePost key={post.id} profilePic={profilePic} image={image} createdAt={createdAt} message={message} username={username} />
                     )
                 })
             }

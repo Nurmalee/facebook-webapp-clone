@@ -7,7 +7,7 @@ import { AiOutlineLike } from 'react-icons/ai';
 import { BiMessage } from 'react-icons/bi';
 import { VscLiveShare } from 'react-icons/vsc';
 
-const TimeLinePost = ({ profilePic, image, timestamp, message, username }) => {
+const TimeLinePost = ({ profilePic, image, createdAt, message, username }) => {
     
     const timeLine__postButtonTemp = (Icon, title) => {
         return (
@@ -25,7 +25,7 @@ const TimeLinePost = ({ profilePic, image, timestamp, message, username }) => {
                     <Avatar src={profilePic} className='timeLine__postTopAvatar' />
                     <div className='timeLine__postTopUser'>
                         <h2>{username}</h2>
-                        <p>{new Date(timestamp?.toDate()).toUTCString()} .<GiEarthAfricaEurope/> </p>
+                        <p>{new Date(createdAt?.toDate()).toUTCString()} .<GiEarthAfricaEurope/> </p>
                     </div>
                 </div>
                 <BsThreeDots className='timeLine__postTopDots' />

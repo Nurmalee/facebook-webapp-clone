@@ -3,7 +3,7 @@ import Avatar from '@material-ui/core/Avatar';
 import { auth, provider } from '.././firebase' 
 import { FiKey } from 'react-icons/fi';
 import './Login.css';
-import { actionTypes } from '.././reducer'
+import { SET_USER } from '.././reducer'
 import { useStateValue } from '.././StateProvider'
 
 const Login = () => {
@@ -12,7 +12,7 @@ const Login = () => {
     const handleLogin = () => {
         auth.signInWithPopup(provider).then((result) => {
            dispatch({
-               type: actionTypes.SET_USER,
+               type: SET_USER,
                user: result.user
            })
         })
