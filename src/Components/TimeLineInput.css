@@ -10,6 +10,11 @@
     box-shadow: 0 0 2px grey;
 }
 
+hr {
+    border: 1px solid #eee;
+    color: #eee;
+}
+
 .input__input {
     display: flex;
     align-items: center;
@@ -32,7 +37,7 @@
     border: none;
     outline: none;
     border-radius: 20px;
-    padding: 10px 20px;
+    padding: 15px 20px;
     font-size: 11px;
     color: #444;
     background-color: #f1f2f5;

@@ -1,5 +1,5 @@
 export const initialState = {
-    user: null
+    user: 'lee'
 }
 
 export const SET_USER = 'SET_USER'
@@ -8,7 +8,7 @@ export const SET_USER = 'SET_USER'
 const reducer = (state, action) => {
     if(action.type === SET_USER){
         return {
-            ...state, user: action.user
+            ...state, user: action.payload
         }
     }
 

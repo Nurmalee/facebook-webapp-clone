@@ -22,11 +22,11 @@ const LeftNav = () => {
             {leftNavUserTemp()}
             {
                leftNavArr.map((navItem, i) => {
-                   const {title, Icon} = navItem
+                   const {title, Icon, color} = navItem
                    return (
                         <div className='leftNav__item' key={i} >
                             {/* {icon} */}
-                            <Icon className='leftNav__icon'/>
+                            <Icon className='leftNav__icon' style={{color: `${color}`}} />
                             <p>{title}</p>
                         </div>
                    )

@@ -12,7 +12,7 @@ import { GrSave } from 'react-icons/gr';
 import { GiThreeFriends, GiBackwardTime, GiMicrophone } from 'react-icons/gi';
 
 
-import Avatar from '@material-ui/core/Avatar';
+// import Avatar from '@material-ui/core/Avatar';
 
 
 // export const topNavArr = [
@@ -46,47 +46,55 @@ export const leftNavArr = [
     // },
     {
         title: 'COVID-19 information center',
-        Icon: BsCollectionPlay
-    },
-    {
-        title: 'friends',
-        Icon: GiThreeFriends
+        Icon: BsCollectionPlay,
     },
     {
         title: 'groups',
-        Icon: HiUserGroup
+        Icon: HiUserGroup,
+        color: 'darkblue'
     },
     {
         title: 'messenger',
-        Icon: FaFacebookMessenger
+        Icon: FaFacebookMessenger,
     },
     {
-        title: 'messenger kids',
-        Icon: RiMessage2Fill
+        title: 'friends',
+        Icon: GiThreeFriends,
     },
     {
         title: 'ad center',
-        Icon: GiMicrophone
+        Icon: GiMicrophone,
+        color: 'orange'
+    },
+    {
+        title: 'messenger kids',
+        Icon: RiMessage2Fill,
+        color: 'darkblue'
     },
     {
         title: 'marketplace',
-        Icon: AiOutlineShop
+        Icon: AiOutlineShop,
+        color: 'green'
     },
     {
         title: 'watch',
-        Icon: BsCollectionPlay
+        Icon: BsCollectionPlay,
+        color: 'purple'
     },
     {
         title: 'games',
-        Icon: CgGames
+        Icon: CgGames,
+        color: 'orange'
     },
     {
         title: 'gaming video',
-        Icon: SiNintendogamecube
+        Icon: SiNintendogamecube,
+        color: 'darkblue'
     },
     {
         title: 'memories',
-        Icon: GiBackwardTime
+        Icon: GiBackwardTime,
+        color: 'purple'
     },
     {
         title: 'events',
@@ -94,7 +102,8 @@ export const leftNavArr = [
     },
     {
         title: 'saved',
-        Icon: GrSave
+        Icon: GrSave,
+        color: 'purple'
     },
     // {
     //     title: 'ads manager',

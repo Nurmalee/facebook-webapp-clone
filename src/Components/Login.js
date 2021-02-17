@@ -13,7 +13,7 @@ const Login = () => {
         auth.signInWithPopup(provider).then((result) => {
            dispatch({
                type: SET_USER,
-               user: result.user
+               payload: result.user
            })
         })
         .catch((error) => alert(error))
