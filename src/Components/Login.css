@@ -8,10 +8,10 @@
     text-align: center;
     border: 1px solid white;
     background-color: rgba(0, 0, 0, 0.7);
-    /* background-color: white; */
+    background-color: white;
     /* margin-top: 50px; */
     border-radius: 7px;
-    box-shadow: 0 0 20px black;
+    box-shadow: 0 0 5px black;
     z-index: 2;
 }
 
@@ -22,7 +22,7 @@
 
 .login__logo > h1 {
     font-family: 'Reggae One', cursive;
-    color: white;
+    color: #222;
     letter-spacing: 1px;
     text-transform: capitalize;
 }
@@ -67,7 +67,7 @@
     top: 0;
     right: 0;
     bottom: 0;
-    background: url('https://cdn.vox-cdn.com/thumbor/tigQvsBV_CQn1Vj-_QHeHH534i8=/1400x1050/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/13177921/FacebookHack_getty_ringer.jpg');
+    /* background: url('https://cdn.vox-cdn.com/thumbor/tigQvsBV_CQn1Vj-_QHeHH534i8=/1400x1050/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/13177921/FacebookHack_getty_ringer.jpg'); */
     z-index: -1;
     /* height: 80vh; */
 }

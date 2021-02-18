@@ -1,42 +1,62 @@
 import React from 'react';
-import { AiFillHome, AiOutlineShop } from 'react-icons/ai';
+import { AiFillHome, AiOutlineShop, AiOutlinePlus } from 'react-icons/ai';
 import { BsBriefcaseFill } from 'react-icons/bs';
 import { MdOndemandVideo } from 'react-icons/md';
 import { HiUserGroup } from 'react-icons/hi';
 import { CgGames } from 'react-icons/cg';
-import { TiWeatherDownpour } from 'react-icons/ti';
-import { FaFacebookMessenger, FaBriefcaseMedical, FaUserFriends } from 'react-icons/fa';
+import { TiWeatherDownpour, TiArrowSortedDown } from 'react-icons/ti';
+import { FaFacebookMessenger, FaBriefcaseMedical, FaUserFriends,  FaBell } from 'react-icons/fa';
 import { RiMessage2Fill } from 'react-icons/ri';
 import { SiNintendogamecube, SiMarketo } from 'react-icons/si';
 import { FcCalendar } from 'react-icons/fc';
 import { GiBackwardTime, GiSave } from 'react-icons/gi';
+import { HiOutlineUserGroup } from 'react-icons/hi';
+
 
 
 // import Avatar from '@material-ui/core/Avatar';
 
 
-// export const topNavArr = [
-//     {
-//         title: 'home',
-//         icon: <AiFillHome className='topNav__icon'/>
-//     },
-//     {
-//         title: 'watch',
-//         icon: <BsCollectionPlay className='topNav__icon'/>
-//     },
-//     {
-//         title: 'marketplace',
-//         icon: <AiOutlineShop className='topNav__icon'/>
-//     },
-//     {
-//         title: 'groups',
-//         icon: <HiOutlineUserGroup className='topNav__icon' />
-//     },
-//     {
-//         title: 'gaming',
-//         icon: <CgGames className='topNav__icon'/>
-//     },
-// ]
+export const topNavArr = [
+    //top nav center
+    {
+        title: 'home',
+        Icon: AiFillHome
+    },
+    {
+        title: 'watch',
+        Icon: MdOndemandVideo
+    },
+    {
+        title: 'marketplace',
+        Icon: AiOutlineShop
+    },
+    {
+        title: 'groups',
+        Icon: HiOutlineUserGroup
+    },
+    {
+        title: 'gaming',
+        Icon: CgGames
+    },
+    //top nav right
+    {
+        title: 'create',
+        Icon:  AiOutlinePlus
+    },
+    {
+        title: 'messenger',
+        Icon: FaFacebookMessenger
+    },
+    {
+        title: 'notification',
+        Icon:  FaBell
+    },
+    // {
+    //     title: 'account',
+    //     Icon: TiArrowSortedDown
+    // },
+]
 
 
 export const leftNavArr = [

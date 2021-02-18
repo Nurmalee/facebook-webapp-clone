@@ -25,7 +25,6 @@ const LeftNav = () => {
                    const {title, Icon, color} = navItem
                    return (
                         <div className='leftNav__item' key={i} >
-                            {/* {icon} */}
                             <Icon className='leftNav__icon' style={{color: `${color}`}} />
                             <p>{title}</p>
                         </div>
