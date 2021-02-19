@@ -6,6 +6,7 @@ import { GiEarthAfricaEurope } from 'react-icons/gi';
 import { AiOutlineLike } from 'react-icons/ai';
 import { BiMessage } from 'react-icons/bi';
 import { VscLiveShare } from 'react-icons/vsc';
+import { motion } from 'framer-motion'
 
 const TimeLinePost = ({ profilePic, image, createdAt, message, username }) => {
     
@@ -19,7 +20,13 @@ const TimeLinePost = ({ profilePic, image, createdAt, message, username }) => {
     }
 
     return (
-        <div className='timeLine__post'>
+        <motion.div className='timeLine__post' initial={{ scale: 0 }}
+        animate={{ rotate: 360, scale: 1 }}
+        transition={{
+          type: "spring",
+          stiffness: 260,
+          damping: 20
+        }}>
             <div className='timeLine__postTop'>
                 <div className='timeLine__postTopInfo'>
                     <Avatar src={profilePic} className='timeLine__postTopAvatar' />
@@ -43,7 +50,7 @@ const TimeLinePost = ({ profilePic, image, createdAt, message, username }) => {
                 {timeLine__postButtonTemp(BiMessage, 'comment')}
                 {timeLine__postButtonTemp(VscLiveShare, 'share')}
             </div>
-        </div>
+        </motion.div>
     )
 }
 
