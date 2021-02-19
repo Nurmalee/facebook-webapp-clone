@@ -16,7 +16,7 @@ const TimeLineInput = () => {
     const handleFormSubmission = (e) => {
         e.preventDefault()
 
-        if(textInput){
+        if(textInput || imageFile){
             db.collection("posts").add({
                 createdAt: firebase.firestore.FieldValue.serverTimestamp(),
                 image: imageFile,
