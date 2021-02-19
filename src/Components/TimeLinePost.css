@@ -5,6 +5,7 @@
     background-color: white;
     box-shadow: 0 2px 4px 1px #ccc;
     color: #444;
+    overflow-wrap: anywhere;
 }
 
 .timeLine__postTop {
