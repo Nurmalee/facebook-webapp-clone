@@ -3,15 +3,11 @@
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    width: 350px;
+    width: 300px;
     padding: 50px 0;
     text-align: center;
-    border: 1px solid white;
-    background-color: rgba(0, 0, 0, 0.7);
-    background-color: white;
-    /* margin-top: 50px; */
+    background-color: rgba(0, 0, 0, 0.8);
     border-radius: 7px;
-    box-shadow: 0 0 5px black;
     z-index: 2;
 }
 
@@ -28,37 +24,39 @@
 }
 
 .login__logo > h4 {
-    color: rgb(0, 179, 255);
+    color: white;
     text-transform: capitalize;
     font-family: 'Reggae One', cursive;
-    /* font-family: 'Oswald', sans-serif; */
-    /* font-family: 'Ballet', cursive; */
-    /* font-family: 'Montserrat', sans-serif; */
+    font-size: 12px;
     margin-top: 10px;
 }
 
 .login > button {
-    color: white;
     text-transform: uppercase;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Reggae One', cursive;
     letter-spacing: 4px;
     font-weight: 900;
-    font-size: 11px;
-    padding: 10px 3rem;
+    font-size: 9px;
+    padding: 10px 4rem;
     margin-top: 3rem;
     outline:  none;
-    border: 1px solid white;
-    background-color: black;
-    border-radius: 5px;
+    border: none;
+    border: 1px solid grey;
+    background-color: transparent;
+    box-shadow: 0 0 20px black;
+    color: white;
+    border-radius: 3px;
     cursor: pointer;
-    transition: 500ms;
-    box-shadow: 0 0 5px white;
+    transition: 1000ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    
 }
 
 .login button:hover {
-    padding: 10px 5rem;
-    /* background-color: white; */
+    box-shadow: 0 0 30px black;
+    border: 1px solid white;
 }
+
+
 
 .login__background {
     width: 100%;
@@ -67,14 +65,25 @@
     top: 0;
     right: 0;
     bottom: 0;
-    /* background: url('https://cdn.vox-cdn.com/thumbor/tigQvsBV_CQn1Vj-_QHeHH534i8=/1400x1050/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/13177921/FacebookHack_getty_ringer.jpg'); */
     z-index: -1;
-    /* height: 80vh; */
+    background: linear-gradient(darkblue, lightblue);
+    background: url('https://images.unsplash.com/photo-1491951931722-5a446214b4e2?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8ZmFjZWJvb2t8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .login__background > img {
     object-fit: contain;
     width: 100%;
+}
+
+.login__facebook-logo {
+    height: 170px;
+    width: 170px;
+    margin-bottom: 50px;
+    color: rgb(0, 166, 255);
+    color: white;
 }
 
 .login__creator {
